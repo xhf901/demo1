@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #grad1 {
+            height: 200px;
+            background: -webkit-repeating-linear-gradient(red, yellow 10%, green 20%);
+            /* Safari 5.1 - 6.0 */
+            background: -o-repeating-linear-gradient(red, yellow 10%, green 20%);
+            /* Opera 11.1 - 12.0 */
+            background: -moz-repeating-linear-gradient(red, yellow 10%, green 20%);
+            /* Firefox 3.6 - 15 */
+            /*渐变地方很少，就只有10%，可以用repeating-linear-gradient来重复渐变*/
+            background: repeating-linear-gradient(red, yellow 10%, green 20%);
+            /* 标准的语法（必须放在最后） */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="grad1">
+
+
+    </div>
+</body>
+
+</html>

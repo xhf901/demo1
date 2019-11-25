@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" manifest="01.appcache ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="shortcut icon" href="https://weibo.com/favicon.ico" type="image/x-icon">
+    <style>
+        @import url("css/main.css");
+
+
+
+        #grad1 {
+            height: 200px;
+            background: -webkit-linear-gradient(left, #FA7553, #FA994E);
+            /* Safari 5.1 - 6.0 */
+            background: -o-linear-gradient(right, #FA7553, #FA994E);
+            /* Opera 11.1 - 12.0 */
+            background: -moz-linear-gradient(right, #FA7553, #FA994E);
+            /* Firefox 3.6 - 15 */
+            background: linear-gradient(to right, #FA7553, #FA994E);
+            /* 标准的语法（必须放在最后） */
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #grad1 div {
+            border: 1px solid #fff;
+            width: 50%;
+            height: 50%;
+            text-align: center;
+            line-height: 100px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div hidden title="div">
+        <div class="baseline"></div>
+        <div class="boxson">
+
+
+        </div>
+    </div>
+    <div id="grad1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>
